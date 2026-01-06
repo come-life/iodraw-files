@@ -1,0 +1,212 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="BS2NA_EN8IykvuHHJwny">
+    <mxGraphModel dx="1050" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-1" value="系统启动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="409" y="20" width="124" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-2" value="初始化硬件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="118" width="142" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-3" value="读取光照传感器数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="369" y="217" width="205" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-4" value="光照强度检测" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="398" y="315" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-5" value="调整亮度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="475" y="533" width="124" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-6" value="保持当前亮度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="393" y="631" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-7" value="读取编码器输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="385" y="730" width="172" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-8" value="模式选择" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="828" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-9" value="执行标准模式功能" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1014" width="188" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-10" value="执行学习模式功能" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="258" y="1014" width="188" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-11" value="执行阅读模式功能" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="496" y="1014" width="188" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-12" value="执行夜间模式功能" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="734" y="1014" width="188" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-13" value="控制灯光亮度与色温" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1113" width="205" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-14" value="检查坐姿传感器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="384" y="1211" width="174" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-15" value="坐姿正常?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="412" y="1310" width="119" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-16" value="继续操作" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="409" y="1599" width="124" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-17" value="报警提示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="466" y="1501" width="125" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-18" value="更新OLED显示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1698" width="162" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-19" value="进入待机状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="393" y="1796" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-1" target="z_mHvXK7tQ36BQVKhIYO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-2" target="z_mHvXK7tQ36BQVKhIYO-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-3" target="z_mHvXK7tQ36BQVKhIYO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-23" value="光照不足" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-4" target="z_mHvXK7tQ36BQVKhIYO-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-24" value="光照正常" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.29;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-4" target="z_mHvXK7tQ36BQVKhIYO-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="497" />
+              <mxPoint x="405" y="606" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.7;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-5" target="z_mHvXK7tQ36BQVKhIYO-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="606" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-6" target="z_mHvXK7tQ36BQVKhIYO-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-7" target="z_mHvXK7tQ36BQVKhIYO-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-28" value="标准模式" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.63;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-8" target="z_mHvXK7tQ36BQVKhIYO-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="114" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-29" value="学习模式" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-8" target="z_mHvXK7tQ36BQVKhIYO-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-30" value="阅读模式" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-8" target="z_mHvXK7tQ36BQVKhIYO-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-31" value="夜间模式" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.63;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-8" target="z_mHvXK7tQ36BQVKhIYO-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0;entryY=0.21;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-9" target="z_mHvXK7tQ36BQVKhIYO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="114" y="1088" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.21;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-10" target="z_mHvXK7tQ36BQVKhIYO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="1088" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.78;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-11" target="z_mHvXK7tQ36BQVKhIYO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="1088" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=1;entryY=0.21;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-12" target="z_mHvXK7tQ36BQVKhIYO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="1088" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-13" target="z_mHvXK7tQ36BQVKhIYO-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-14" target="z_mHvXK7tQ36BQVKhIYO-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-38" value="正常" style="curved=1;startArrow=none;endArrow=block;exitX=0.19;exitY=0.99;entryX=0.27;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-15" target="z_mHvXK7tQ36BQVKhIYO-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="1465" />
+              <mxPoint x="413" y="1574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-39" value="不正常" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-15" target="z_mHvXK7tQ36BQVKhIYO-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="1465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.73;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-17" target="z_mHvXK7tQ36BQVKhIYO-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="1574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-16" target="z_mHvXK7tQ36BQVKhIYO-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_mHvXK7tQ36BQVKhIYO-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="z_mHvXK7tQ36BQVKhIYO-18" target="z_mHvXK7tQ36BQVKhIYO-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
